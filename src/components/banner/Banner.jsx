@@ -1,10 +1,11 @@
 import React from 'react';
-import Apple from '../assets/png/apple.png';
-import Leaf from '../assets/png/leaf.png';
-import Kiwi from '../assets/png/kiwi.png';
-import Lemon from '../assets/png/lemon.png';
-import Tomato from '../assets/png/tomato.png';
-import PrimaryButton from './shared/PrimaryButton';
+
+import Apple from '../../assets/png/apple.png';
+import Leaf from '../../assets/png/leaf.png';
+import Kiwi from '../../assets/png/kiwi.png';
+import Lemon from '../../assets/png/lemon.png';
+import Tomato from '../../assets/png/tomato.png';
+import PrimaryButton from '../shared/PrimaryButton';
 
 export const Banner = () => {
   return (
