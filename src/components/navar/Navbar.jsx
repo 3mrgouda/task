@@ -34,23 +34,23 @@ const dropDownLinks = [
     link: "/#"
   },
 ]
-const Navbar = () => {
+const Navbar = ({HandlePopUP}) => {
   return (<>
-    <div className='shadow-md bg-white '>
-      <div className="cotainer flex justify-between py-4 sm:py-3 px-20">
+    <div data-aos="fade" className='shadow-md bg-white '>
+      <div className="cotainer flex justify-around md:justify-between items-center py-4 sm:py-3 px-20">
         {/* logo section */}
         <div className="font-bold text-3xl">logo</div>
         {/* links section */}
         <div>
-          <ul className='flex items-center gap-10'>
+          <ul className='flex items-center gap-10 '>
             {
               navLink.map(({ id, name, link }) => (
                 <li key={id}>
-                  <a href={link} className='inline-block hover:text-primary font-semibold text-xl'>{name}</a>
+                  <a href={link} className='hidden md:inline-block hover:text-primary font-semibold text-xl'>{name}</a>
                 </li>
               ))}
             {/* simple drop-down and links  */}
-            <li className='cursor-pointer group'>
+            <li className='cursor-pointer group hidden md:block'>
               <a href="" className='inline-block hover:text-primary font-semibold text-xl'>
                 <div className='flex items-center gap-[2px] py-2'>Category <span><FaCaretDown className='group-hover:rotate-180 duration-300' /></span></div>
               </a>
@@ -68,7 +68,7 @@ const Navbar = () => {
             </li>
             {/* login btn section */}
             <li>
-              <button className='flex items-center bg-secondary text-white px-5 py-2 hover:scale-105 gap-2 duration-300'><FaUser/>My Account</button>
+              <button onClick={HandlePopUP} className='flex items-center bg-secondary text-white px-1 md:px-5 text-nowrap  py-2 hover:scale-105 gap-2 duration-300'><FaUser/>My Account</button>
             </li>
           </ul>
         </div>
