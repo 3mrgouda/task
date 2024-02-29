@@ -10,8 +10,10 @@ export default {
         dark: "#303030",
       },
       fontFamily: {
-        inter: ["Inter", "sans-serif"],
         cursive: ["Ephesis", "cursive"],
+        logos: ["Rubik Scribble", "system-ui"],
+        hero: ["Allerta Stencil", "sans-serif"]
+
       },
       container: {
         center: true,

@@ -5,7 +5,7 @@ const PrimaryButton = () => {
   return (
     <>
             <div className='flex items-center group'>
-                <button className='bg-primary h-[40px] text-white px-3 py-2 '>choose your meal plane</button>
+                <button className='bg-primary h-[40px] text-white px-3 py-2 '>Read more..</button>
                 <div className='group-hover:translate-x-2 cursor-pointer'>
                     <FaArrowRight className='  group-hover:translate-x-2  duration-200 p-2 text-base  text-white bg-primaryDark w-[40px] h-[40px]' />
                 </div>

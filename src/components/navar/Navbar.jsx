@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaCaretDown, FaUser } from 'react-icons/fa';
+import LogoIcon from '../../assets/png/logo.png';
 const navLink = [
   {
     id: 1,
@@ -20,17 +21,17 @@ const navLink = [
 const dropDownLinks = [
   {
     id: 1,
-    name: "Vegetables",
+    name: "Html&Css",
     link: "/#"
   },
   {
     id: 2,
-    name: "Fruits",
+    name: "JS",
     link: "/#"
   },
   {
     id: 3,
-    name: "Grains",
+    name: "AI tools",
     link: "/#"
   },
 ]
@@ -39,7 +40,9 @@ const Navbar = ({HandlePopUP}) => {
     <div data-aos="fade" className='shadow-md bg-white '>
       <div className="cotainer flex justify-around md:justify-between items-center py-4 sm:py-3 px-20">
         {/* logo section */}
-        <div className="font-bold text-3xl">logo</div>
+        <div>
+        <a href="#" className='font-logos font-bold flex lg:w-full lg:text-3xl max-sm:text-xl md:w-1/6 md:text-xl text-nowrap '>&lt; Begin <img src={LogoIcon} className='max-sm:w-8 md:w-5 lg:w-10' alt="" />Front &gt;</a>
+        </div>
         {/* links section */}
         <div>
           <ul className='flex items-center gap-10 '>
