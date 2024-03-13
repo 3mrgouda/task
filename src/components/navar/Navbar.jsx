@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaCaretDown, FaUser } from 'react-icons/fa';
 import LogoIcon from '../../assets/png/logo.png';
+import { Link } from 'react-router-dom';
 const navLink = [
   {
     id: 1,
@@ -32,7 +33,7 @@ const dropDownLinks = [
   {
     id: 3,
     name: "AI tools",
-    link: "/#"
+    link: "/ai-tools"
   },
 ]
 const Navbar = ({HandlePopUP}) => {
@@ -49,7 +50,7 @@ const Navbar = ({HandlePopUP}) => {
             {
               navLink.map(({ id, name, link }) => (
                 <li key={id}>
-                  <a href={link} className='hidden md:inline-block hover:text-primary font-semibold text-xl'>{name}</a>
+                  <Link to={link} className='hidden md:inline-block hover:text-primary font-semibold text-xl hover:bg-black/15'>{name}</Link>
                 </li>
               ))}
             {/* simple drop-down and links  */}
@@ -63,7 +64,7 @@ const Navbar = ({HandlePopUP}) => {
 
                   dropDownLinks.map(({ id, name, link }) => (
                     <li key={id}>
-                      <a href={link} className='inline-block w-full rounded-md p-2  hover:bg-primary/20 font-semibold text-xl'>{name}</a>
+                      <Link to={link} className='inline-block w-full rounded-md p-2  hover:bg-primary/20 font-semibold text-xl'>{name}</Link>
 
                     </li>
                   ))}</ul>

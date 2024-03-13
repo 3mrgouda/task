@@ -2,7 +2,6 @@ import React from 'react';
 
 import Ract from '../../assets/png/React.png';
 import Html from '../../assets/png/html.png';
-import Vue from '../../assets/png/Vue.png';
 import JS from '../../assets/png/JS.png';
 import Css from '../../assets/png/css.png';
 import PrimaryButton from '../shared/PrimaryButton';
