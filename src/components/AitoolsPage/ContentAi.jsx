@@ -30,7 +30,7 @@ const ContentAi = () => {
             <div className="fixed bg-white w-full py-2 mb-5 top-0 max-sm:px-5 px-28 shadow-md flex justify-between">
                 {/* logo section */}
                 <div className=''>
-                    <Link to='/' className='font-logos font-bold flex lg:w-full lg:text-3xl max-sm:text-2xl md:w-1/6 md:text-xl text-nowrap '>&lt; Begin <img src={LogoIcon} className='max-sm:w-8 md:w-5 lg:w-10' alt="" />Front &gt;</Link>
+                    <Link to='/' className='  font-logos font-bold flex lg:w-full lg:text-3xl max-sm:text-2xl md:w-1/6 md:text-xl text-nowrap '>&lt; Begin <img src={LogoIcon} className='max-sm:w-8 md:w-5 lg:w-10' alt="" />Front &gt;</Link>
                 </div>
                 <div className="iconNav max-sm:block text-4xl hidden" onClick={() => toggleclose()}>
                     {
@@ -61,7 +61,7 @@ const ContentAi = () => {
 
 
                             <div className="img-section  max-sm:w-full ">
-                                <img className='max-sm:w-full aspect-video lg:w-[90%] 2xl:w-[78%] rounded-md ' src={table.image} alt="pereview" />
+                                <img className='max-sm:w-full aspect-video lg:w-[90%] 2xl:w-[78%] rounded-md ' src={table.img} alt="pereview" />
                             </div>
 
 
@@ -70,7 +70,7 @@ const ContentAi = () => {
                                     <a className='flex items-center font-bold cursor-pointer max-sm:justify-center text-[#46b855] lg:text-3xl' href="#">Wizi<GoLinkExternal className='text-xl' /></a>
 
                                 </div>
-                                <p className='2xl:text-xl'>{table.description}</p>
+                                <p className='2xl:text-xl'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, consectetur?</p>
                                 <Link className='  capitalize bg-[#46b855]  py-2 rounded-md w-[80%] 2xl:w-[95%] text-center max-sm:mx-auto' to='KnowMore'>Know More</Link>
                             </div>
 
