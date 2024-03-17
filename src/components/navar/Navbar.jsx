@@ -36,13 +36,13 @@ const dropDownLinks = [
     link: "/ai-tools"
   },
 ]
-const Navbar = ({HandlePopUP}) => {
+const Navbar = ({ HandlePopUP }) => {
   return (<>
-    <div data-aos="fade" className='shadow-md bg-white '>
+    <div data-aos="fade" className='shadow-md bg-white  '>
       <div className="cotainer flex justify-around md:justify-between items-center py-4 sm:py-3 px-20">
         {/* logo section */}
         <div>
-        <a href="#" className='font-logos font-bold flex lg:w-full lg:text-3xl max-sm:text-xl md:w-1/6 md:text-xl text-nowrap '>&lt; Begin <img src={LogoIcon} className='max-sm:w-8 md:w-5 lg:w-10' alt="" />Front &gt;</a>
+          <a href="#" className='font-logos font-bold flex lg:w-full lg:text-3xl max-sm:text-xl md:w-1/6 md:text-xl text-nowrap '>&lt; Begin <img src={LogoIcon} className='max-sm:w-8 md:w-5 lg:w-10' alt="" />Front &gt;</a>
         </div>
         {/* links section */}
         <div>
@@ -72,7 +72,7 @@ const Navbar = ({HandlePopUP}) => {
             </li>
             {/* login btn section */}
             <li>
-              <button onClick={HandlePopUP} className='flex items-center bg-secondary text-white px-1 md:px-5 text-nowrap  py-2 hover:scale-105 gap-2 duration-300'><FaUser/>My Account</button>
+              <button onClick={HandlePopUP} className='flex items-center bg-secondary text-white px-1 md:px-5 text-nowrap  py-2 hover:scale-105 gap-2 duration-300'><FaUser />My Account</button>
             </li>
           </ul>
         </div>

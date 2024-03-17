@@ -1,212 +1,562 @@
 [
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/wizi.webp"
+        "toolName": "Wizi ",
+        "toolSite": "https://wizi.ai/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/wizi.webp",
+        "toolDesc": "Wizi is an AI tool designed to handle common frontend tasks such as writing code, implementing details, and generating pull requests. It aims to focus on hard problems and reduce repetitive frontend tasks in order to increase efficiency.",
+        "toolDescSm": "Wizi is an AI tool designed to handle common frontend tasks such as writing code, implemen...",
+        "rate": " 3.6/10 popularity"
+    },
+    {
+        "toolName": "v0.dev by Vercel Labs ",
+        "toolSite": "https://v0.dev",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/v0-dev-by-vercel-labs.webp",
+        "toolDesc": "v0 is a generative user interface system by Vercel powered by AI. It generates copy-and-paste friendly React code based on shadcn/ui and Tailwind CSS that people can use in their projects.",
+        "toolDescSm": "v0 is a generative user interface system by Vercel powered by AI. It generates copy-and-pa...",
+        "rate": " 6.4/10 popularity"
+    },
+    {
+        "toolName": "Aigur ",
+        "toolSite": "https://aigur.dev/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/aigur.webp",
+        "toolDesc": "Aigur is a visual editor-based AI tool that simplifies the development of multi-use AI applications and data pipelines, offers plan management, frontend application development, and insights for business automation analysis.",
+        "toolDescSm": "Aigur is a visual editor-based AI tool that simplifies the development of multi-use AI app...",
+        "rate": " - popularity"
+    },
+    {
+        "toolName": "Windframe ",
+        "toolSite": "https://devwares.com/windframe",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/windframe.webp",
+        "toolDesc": "Windframe is an AI Powered visual editor and builder that helps developers edit, customize, and build Tailwind CSS websites/UIs 10x faster. Speed up your web development process and ship in minutes not weeks.",
+        "toolDescSm": "Windframe is an AI Powered visual editor and builder that helps developers edit, customize...",
+        "rate": " 5.5/10 popularity"
+    },
+    {
+        "toolName": "Cue ",
+        "toolSite": "https://www.getcue.ai/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/cue.webp",
+        "toolDesc": "Cue is an AI tool that speeds up software development with features such as module implementation, code refactoring, and test writing.",
+        "toolDescSm": "Cue is an AI tool that speeds up software development with features such as module impleme...",
+        "rate": " 3.7/10 popularity"
+    },
+    {
+        "toolName": "Fronty ",
+        "toolSite": "https://fronty.com/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/fronty.webp",
+        "toolDesc": "Fronti is an AI-powered tool that converts images to HTML/CSS code within minutes and features a no-code editor for creating complex websites with custom domains and high uptime.",
+        "toolDescSm": "Fronti is an AI-powered tool that converts images to HTML/CSS code within minutes and feat...",
+        "rate": " 5.6/10 popularity"
+    },
+    {
+        "toolName": "Backengine ",
+        "toolSite": "https://backengine.dev/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/backengine.webp",
+        "toolDesc": "Backengine is an AI tool that allows for instant backend API and frontend development without code infrastructure, using natural language commands and seamless GitHub integration.",
+        "toolDescSm": "Backengine is an AI tool that allows for instant backend API and frontend development with...",
+        "rate": " - popularity"
+    },
+    {
+        "toolName": "Coframe ",
+        "toolSite": "https://coframe.ai/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/coframe.webp",
+        "toolDesc": "Coframe is an AI-powered tool that helps improve the user experience of websites and apps. It uses machine learning algorithms to generate copy, frontend development, and UX research based on real-world performance data.",
+        "toolDescSm": "Coframe is an AI-powered tool that helps improve the user experience of websites and apps....",
+        "rate": " 4.5/10 popularity"
+    },
+    {
+        "toolName": "Imagica ",
+        "toolSite": "https://www.imagica.ai/studio",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/imagica.webp",
+        "toolDesc": "Imagica is a no-code AI tool that enables users to build functional AI applications quickly and easily by describing them without any coding skills.",
+        "toolDescSm": "Imagica is a no-code AI tool that enables users to build functional AI applications quickl...",
+        "rate": " 5.8/10 popularity"
+    },
+    {
+        "toolName": "Uizard ",
+        "toolSite": "https://uizard.io/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/uizard.webp",
+        "toolDesc": "Uizard is an AI-powered design tool that automates text design, offers wireframing, UI mockups, and prototyping for streamlined collaboration and iteration among product managers, UX professionals, startup founders, consultants, and developers.",
+        "toolDescSm": "Uizard is an AI-powered design tool that automates text design, offers wireframing, UI moc...",
+        "rate": " 6.4/10 popularity"
+    },
+    {
+        "toolName": "Bilfrost ",
+        "toolSite": "https://www.bifrost.so/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/bilfrost.webp",
+        "toolDesc": "Bifrost automates Figma designs into React code, eliminating repetitive tasks and empowering designers to create screens without coding experience.",
+        "toolDescSm": "Bifrost automates Figma designs into React code, eliminating repetitive tasks and empoweri...",
+        "rate": " 3.6/10 popularity"
+    },
+    {
+        "toolName": "EnergeticAI ",
+        "toolSite": "https://energeticai.org/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/energeticai.webp",
+        "toolDesc": "The AI tool utilizes open-source AI node.js apps for faster performance in serverless environments, with pre-trained models for various use cases and documentation for building custom applications.",
+        "toolDescSm": "The AI tool utilizes open-source AI node.js apps for faster performance in serverless envi...",
+        "rate": " 3.9/10 popularity"
+    },
+    {
+        "toolName": "Dynaboard AI ",
+        "toolSite": "https://dynaboard.com/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/dynaboard-ai.webp",
+        "toolDesc": "Dynaboard AI is a suite of AI functionalities that automates UI generation, code generation, and code refactoring for custom software development using natural language commands.",
+        "toolDescSm": "Dynaboard AI is a suite of AI functionalities that automates UI generation, code generatio...",
+        "rate": " - popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/v0-dev-by-vercel-labs.webp"
+        "toolName": "Compo AI ",
+        "toolSite": "https://www.compo.ai/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/compo-ai.webp",
+        "toolDesc": "This AI tool is a platform for designing, managing and developing web presence using component-driven technology.",
+        "toolDescSm": "This AI tool is a platform for designing, managing and developing web presence using compo...",
+        "rate": " 3.8/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/aigur.webp"
+        "toolName": "Lightly ",
+        "toolSite": "https://www.lightly-dev.com/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/lightly.webp",
+        "toolDesc": "Lightly is a browser-based cloud IDE powered by AI that supports 10+ programming languages, databases like PostgreSQL, MySQL, and Redis, offers deployment capabilities, and facilitates collaboration among teams.",
+        "toolDescSm": "Lightly is a browser-based cloud IDE powered by AI that supports 10+ programming languages...",
+        "rate": " - popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/windframe.webp"
+        "toolName": "Auto Backend ",
+        "toolSite": "https://www.autobackend.dev/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/auto-backend.webp",
+        "toolDesc": "Auto Backend is an AI tool that generates code for various backends and provides additional features such as trending on Reddit, getting random Pokemon, cloning Twitter, managing calendars, and tracking Ethereum balances.",
+        "toolDescSm": "Auto Backend is an AI tool that generates code for various backends and provides additiona...",
+        "rate": " 4.0/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/cue.webp"
+        "toolName": "Tempo ",
+        "toolSite": "https://www.tempolabs.ai/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/tempo.webp",
+        "toolDesc": "Tempo is an AI design tool that generates high-quality code and ships UIs in minutes, allowing designers to focus on business logic while ensuring code adheres to existing standards. It offers a library of components and templates and works seamlessl",
+        "toolDescSm": "Tempo is an AI design tool that generates high-quality code and ships UIs in minutes, allo...",
+        "rate": " 3.9/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/fronty.webp"
+        "toolName": "Code99 ",
+        "toolSite": "https://www.code99.io/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/code99.webp",
+        "toolDesc": "Code99 is an AI-powered tool that generates production-ready REST API code for Nest.js and TypeORM with built-in authentication, email integration, and Swagger API documentation.",
+        "toolDescSm": "Code99 is an AI-powered tool that generates production-ready REST API code for Nest.js and...",
+        "rate": " - popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/backengine.webp"
+        "toolName": "Elessar ",
+        "toolSite": "https://www.getelessar.com/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/elessar.webp",
+        "toolDesc": "Elessar is an AI-powered engineering productivity tool that improves development visibility and documentation. It integrates with existing tools, generates standardized pull request changelogs and documents codebase progress.",
+        "toolDescSm": "Elessar is an AI-powered engineering productivity tool that improves development visibilit...",
+        "rate": " 3.7/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/coframe.webp"
+        "toolName": "AI Inferkit ",
+        "toolSite": "https://inferkit.ai",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/ai-inferkit.webp",
+        "toolDesc": "AI Inferkit is a comprehensive platform that offers a collection of various LLM APIs, including major models like OpenAI. It serves as a large-scale model routing component, designed to assist developers in building AI products more cost-effectively",
+        "toolDescSm": "AI Inferkit is a comprehensive platform that offers a collection of various LLM APIs, incl...",
+        "rate": " - popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/imagica.webp"
+        "toolName": "Unfetch ",
+        "toolSite": "https://unfetch.com/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/unfetch.webp",
+        "toolDesc": "Unfetch is an AI tool that enables you to create AI workflows and chat with data-driven AI agents. With Unfetch, you can easily interact with existing APIs using large language models.",
+        "toolDescSm": "Unfetch is an AI tool that enables you to create AI workflows and chat with data-driven AI...",
+        "rate": " - popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/uizard.webp"
+        "toolName": "Metatable.ai ",
+        "toolSite": "https://example.com",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/metatable-ai.webp",
+        "toolDesc": "Metatable is an AI-driven development platform that provides a seamless development experience with no coding required for developers to construct complete apps spanning front-end to backend, including infrastructure setup.",
+        "toolDescSm": "Metatable is an AI-driven development platform that provides a seamless development experi...",
+        "rate": " 7.0/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/bilfrost.webp"
+        "toolName": "Aigur.dev ",
+        "toolSite": "https://client.aigur.dev/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/aigur-dev.webp",
+        "toolDesc": "Aigur Client is a free, open-source AI tool for Aigur and pipeline management that provides various functionalities using AI frameworks like GPT-3 and Hugging Face.",
+        "toolDescSm": "Aigur Client is a free, open-source AI tool for Aigur and pipeline management that provide...",
+        "rate": " - popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/energeticai.webp"
+        "toolName": "Flowise ",
+        "toolSite": "https://flowiseai.com/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/flowise.webp",
+        "toolDesc": "FlowiseAI is an open-source UI visual tool that simplifies the process of building customized LLM flows using LangchainJS. It supports Docker for easy deployment and can be used for both commercial and personal purposes.",
+        "toolDescSm": "FlowiseAI is an open-source UI visual tool that simplifies the process of building customi...",
+        "rate": " 5.5/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/dynaboard-ai.webp"
+        "toolName": "Boxy ",
+        "toolSite": "https://codesandbox.io/blog/meet-boxy-ai-coding-assistant",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/boxy.webp",
+        "toolDesc": "Boxy is an AI coding assistant that enhances the coding experience, speeds up machine performance, provides useful features like code reviews, sandboxes and optimization, and helps bring ideas to code faster.",
+        "toolDescSm": "Boxy is an AI coding assistant that enhances the coding experience, speeds up machine perf...",
+        "rate": " 7.2/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/compo-ai.webp"
+        "toolName": "Chainfuse ",
+        "toolSite": "https://chainfuse.com/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/chainfuse.webp",
+        "toolDesc": "ChainFuse will revolutionize your Discord community with no-code AI by providing instantaneous and accurate responses to questions, gathering feature requests meticulously, and ensuring every user feels heard.",
+        "toolDescSm": "ChainFuse will revolutionize your Discord community with no-code AI by providing instantan...",
+        "rate": " 4.7/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/lightly.webp"
+        "toolName": "Second Home ",
+        "toolSite": "https://www.second.dev/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/second-home.webp",
+        "toolDesc": "Second is an AI-powered tool that helps developers develop web applications quickly and efficiently by recommending the best tech stack and handling grunt work.",
+        "toolDescSm": "Second is an AI-powered tool that helps developers develop web applications quickly and ef...",
+        "rate": " 4.5/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/auto-backend.webp"
+        "toolName": "AI consulting tools ",
+        "toolSite": "https://aiconsultingtools.com/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/ai-consulting-tools.webp",
+        "toolDesc": "AI Consulting Tools is an AI-powered productivity tool for consultants that automates the generation of SWOT analyses, user personas, and Lean canvases.",
+        "toolDescSm": "AI Consulting Tools is an AI-powered productivity tool for consultants that automates the ...",
+        "rate": " 4.1/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/tempo.webp"
+        "toolName": "Onboard AI ",
+        "toolSite": "https://getonboard.dev",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/onboard-ai.webp",
+        "toolDesc": "Onboard AI is an AI tool that simplifies the process of navigating unfamiliar codebases and covers a wide range of tasks.",
+        "toolDescSm": "Onboard AI is an AI tool that simplifies the process of navigating unfamiliar codebases an...",
+        "rate": " - popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/code99.webp"
+        "toolName": "Jetbrains IDE Plugin ",
+        "toolSite": "https://tldrdev.ai/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/jetbrains-ide-plugin.webp",
+        "toolDesc": "The Horizont AI tool is a code explanation IDE plugin that supports most programming languages and offers free and paid versions with varying levels of access and support.",
+        "toolDescSm": "The Horizont AI tool is a code explanation IDE plugin that supports most programming langu...",
+        "rate": " 4.2/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/elessar.webp"
+        "toolName": "AI Landing Page Builder ",
+        "toolSite": "https://website.ddevi.com/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/ai-landing-page-builder.webp",
+        "toolDesc": "Build stunning websites and landing pages in just 30 seconds with our AI-powered assistants. Try it out for free!",
+        "toolDescSm": "Build stunning websites and landing pages in just 30 seconds with our AI-powered assistant...",
+        "rate": " 4.5/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/ai-inferkit.webp"
+        "toolName": "GPTConsole.ai ",
+        "toolSite": "https://www.gptconsole.ai",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/gptconsole-ai.webp",
+        "toolDesc": "GPTConsole is an AI-powered platform that streamlines web/mobile app development and automation through text prompts, with a console interface for creating landing pages and websites.",
+        "toolDescSm": "GPTConsole is an AI-powered platform that streamlines web/mobile app development and autom...",
+        "rate": " 3.2/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/unfetch.webp"
+        "toolName": "Safurai ",
+        "toolSite": "https://www.safurai.com/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/safurai.webp",
+        "toolDesc": "Safurai is an AI Code Assistant (IDE extension) for developers that solves bugs, refactors code, generates documentation, and offers more features.",
+        "toolDescSm": "Safurai is an AI Code Assistant (IDE extension) for developers that solves bugs, refactors...",
+        "rate": " 4.9/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/metatable-ai.webp"
+        "toolName": "18Now ",
+        "toolSite": "https://i18now.dev/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/18now.webp",
+        "toolDesc": "i18now is an AI-powered tool that localizes product content in multiple languages using React-Intl and Format.js with authentication features.",
+        "toolDescSm": "i18now is an AI-powered tool that localizes product content in multiple languages using Re...",
+        "rate": " - popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/aigur-dev.webp"
+        "toolName": "Frontitude's UX Writing Assistant ",
+        "toolSite": "https://write.frontitude.com",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/frontitude-s-ux-writing-assistant.webp",
+        "toolDesc": "The UX Writing Assistant by Frontitude is an AI-powered tool that helps craft consistent and engaging UX copy effortlessly.",
+        "toolDescSm": "The UX Writing Assistant by Frontitude is an AI-powered tool that helps craft consistent a...",
+        "rate": " 3.0/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/flowise.webp"
+        "toolName": "Fork.ai ",
+        "toolSite": "https://www.fork.ai/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/fork-ai.webp",
+        "toolDesc": "Fork.ai is an AI-powered tool that helps you identify the technologies being used by mobile apps. Discover the tech stack behind any app on Google Play and the App Store.",
+        "toolDescSm": "Fork.ai is an AI-powered tool that helps you identify the technologies being used by mobil...",
+        "rate": " 5.2/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/boxy.webp"
+        "toolName": "CodiumAI ",
+        "toolSite": "https://www.codium.ai/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/codiumai.webp",
+        "toolDesc": "CodiumAI is an AI-based tool that generates tests and provides code integration features for multiple programming languages, available as a free VS Code extension or JetBrains plugin, taking security seriously, and offering community and FAQs.",
+        "toolDescSm": "CodiumAI is an AI-based tool that generates tests and provides code integration features f...",
+        "rate": " 6.1/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/chainfuse.webp"
+        "toolName": "LampBuilder ",
+        "toolSite": "https://lampbuilder.com/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/lampbuilder.webp",
+        "toolDesc": "lampbuilder is an AI tool that enables instant creation of stunning landing pages. It uses AI to generate websites in real-time, saving time and effort. It offers AI-generated content, on-page editing, and additional benefits like free hero image and",
+        "toolDescSm": "lampbuilder is an AI tool that enables instant creation of stunning landing pages. It uses...",
+        "rate": " 4.1/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/second-home.webp"
+        "toolName": "Google Colab Copilot ",
+        "toolSite": "https://copilot.naklecha.com/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/google-colab-copilot.webp",
+        "toolDesc": "Google Colab Copilot is a simple tool that helps developers with code tasks in Google Colab by allowing them to complete code implementation and replacement within the platform, eliminating the need to switch between GitHub and other applications.",
+        "toolDescSm": "Google Colab Copilot is a simple tool that helps developers with code tasks in Google Cola...",
+        "rate": " 3.4/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/ai-consulting-tools.webp"
+        "toolName": "Airtest ",
+        "toolSite": "https://www.airtest.dev/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/airtest.webp",
+        "toolDesc": "Automatically generate documentation, unit tests and more with just a code snippet.",
+        "toolDescSm": "Automatically generate documentation, unit tests and more with just a code snippet....",
+        "rate": " 3.1/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/onboard-ai.webp"
+        "toolName": "AutoCode Pro ",
+        "toolSite": "https://autocodepro.com/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/autocode-pro.webp",
+        "toolDesc": "AutoCodePro AI generates ready-to-use code for various types of applications based on user's app idea description.",
+        "toolDescSm": "AutoCodePro AI generates ready-to-use code for various types of applications based on user...",
+        "rate": " 4.0/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/jetbrains-ide-plugin.webp"
+        "toolName": "Lazy AI ",
+        "toolSite": "https://www.getlazy.ai/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/lazy-ai.webp",
+        "toolDesc": "Lazy Apps, an AI no-code designed to streamline the process of creating software easily with text prompts. With Lazy Apps, users can access a variety of features such as building and modifying full-stack web apps, deploying to the cloud with just one",
+        "toolDescSm": "Lazy Apps, an AI no-code designed to streamline the process of creating software easily wi...",
+        "rate": " - popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/ai-landing-page-builder.webp"
+        "toolName": "gptengineer.app ",
+        "toolSite": "https://gptengineer.app",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/gptengineer-app.webp",
+        "toolDesc": "GPT Engineer: Empowers Devs w/ AI-powered NL for Swift Web App Creation; Accelerate Devs w/ Rapid Prototyping, Git Integration & Community Collaboration on Discord.",
+        "toolDescSm": "GPT Engineer: Empowers Devs w/ AI-powered NL for Swift Web App Creation; Accelerate Devs w...",
+        "rate": " 5.6/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/gptconsole-ai.webp"
+        "toolName": "Flatlogic ",
+        "toolSite": "https://flatlogic.com/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/flatlogic.webp",
+        "toolDesc": "Flatlogic accelerates custom web application development with a robust AI-powered tool suite for creating enterprise-grade ERP and CRM systems.",
+        "toolDescSm": "Flatlogic accelerates custom web application development with a robust AI-powered tool sui...",
+        "rate": " 5.2/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/safurai.webp"
+        "toolName": "Gitwit ",
+        "toolSite": "https://www.gitwit.dev/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/gitwit.webp",
+        "toolDesc": "Gitwit is a coding acceleration tool that allows full-stack developers to spawn and modify codebases using natural language prompts, automate the generation of boilerplate code, and add features to full-stack apps.",
+        "toolDescSm": "Gitwit is a coding acceleration tool that allows full-stack developers to spawn and modify...",
+        "rate": " 3.9/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/18now.webp"
+        "toolName": "AbanteAI ",
+        "toolSite": "https://www.mentat.codes/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/abanteai.webp",
+        "toolDesc": "Mentat is an AI-powered coding assistant that utilizes GPT-4 to write code. It understands existing code, coordinates edits, and writes code instead of just providing suggestions.",
+        "toolDescSm": "Mentat is an AI-powered coding assistant that utilizes GPT-4 to write code. It understands...",
+        "rate": " - popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/frontitude-s-ux-writing-assistant.webp"
+        "toolName": "Figstack ",
+        "toolSite": "https://figstack.com/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/figstack.webp",
+        "toolDesc": "Figstack is an AI code companion tool with features such as function explanation, language translation, document creation, and time complexity tracking. It offers a free trial for users to explore.",
+        "toolDescSm": "Figstack is an AI code companion tool with features such as function explanation, language...",
+        "rate": " 4.0/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/fork-ai.webp"
+        "toolName": "Vivid ",
+        "toolSite": "https://www.vivid.lol/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/vivid.webp",
+        "toolDesc": "Vivid is an AI tool that generates modular code from Figma designs, streamlines the design-to-production process, and enables auto-updating and smart collaboration. Users can sign up for early access by joining the waitlist with their work email.",
+        "toolDescSm": "Vivid is an AI tool that generates modular code from Figma designs, streamlines the design...",
+        "rate": " 4.3/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/codiumai.webp"
+        "toolName": "VisualizeAI ",
+        "toolSite": "https://visualizeai.pro/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/visualizeai.webp",
+        "toolDesc": "VisualizeAI is an AI-based tool for prototyping, visual design, and generating inspiration, with over 100 style options and two pricing plans.",
+        "toolDescSm": "VisualizeAI is an AI-based tool for prototyping, visual design, and generating inspiration...",
+        "rate": " 4.6/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/lampbuilder.webp"
+        "toolName": "EverAssistantAI ",
+        "toolSite": "https://yep.so/p/everassist",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/everassistantai.webp",
+        "toolDesc": "Yep.so is a fast, free landing page creation tool with customizable templates based on market examples and real data, and offers pricing plans for various needs including custom domains and checkout options.",
+        "toolDescSm": "Yep.so is a fast, free landing page creation tool with customizable templates based on mar...",
+        "rate": " 4.8/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/google-colab-copilot.webp"
+        "toolName": "Aspect ",
+        "toolSite": "https://aspect-hq.com/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/aspect.webp",
+        "toolDesc": "Aspect AI is a human-like interview tool that provides notes, feedback, and highlight reels while integrating with ATS systems and boasting superior transcription capabilities.",
+        "toolDescSm": "Aspect AI is a human-like interview tool that provides notes, feedback, and highlight reel...",
+        "rate": " - popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/airtest.webp"
+        "toolName": "Vellum ",
+        "toolSite": "https://www.vellum.ai/sp/showcase",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/vellum-ai.webp",
+        "toolDesc": "Creaid AI is an AI-powered tool for optimizing commercial real estate transactions. It connects users with ideal lenders, provides tailored insights into debt financing strategies, and offers a Marketing & Sales Content Bot. The tool has a wealth of",
+        "toolDescSm": "Creaid AI is an AI-powered tool for optimizing commercial real estate transactions. It con...",
+        "rate": " 4.8/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/autocode-pro.webp"
+        "toolName": "AppGenius.ai ",
+        "toolSite": "https://www.site.appgenius.ai/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/appgenius-ai.webp",
+        "toolDesc": "AppGenius is a no-code platform that enables users to create and deploy AI-based interactive content on their website, effortlessly.",
+        "toolDescSm": "AppGenius is a no-code platform that enables users to create and deploy AI-based interacti...",
+        "rate": " - popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/gptengineer-app.webp"
+        "toolName": "Bunzz Decipher ",
+        "toolSite": "https://chrome.google.com/webstore/detail/bunzz-decipher/ekkgjdbkmlcaepohenggjpfadklklpaj",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/bunzz-decipher.webp",
+        "toolDesc": "Bunzz Decipher is a Chrome extension that generates AI documentation for web3 contracts and supports multiple block explorers and chains.",
+        "toolDescSm": "Bunzz Decipher is a Chrome extension that generates AI documentation for web3 contracts an...",
+        "rate": " - popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/flatlogic.webp"
+        "toolName": "AI Tools Alternatives: Browser Extension ",
+        "toolSite": "https://freeaitool.co/ai-alternatives",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/ai-tools-alternatives-browser-extension.webp",
+        "toolDesc": "Discover and compare AI tools directly in Chrome with the AI Tools Alternatives Extension, offering a curated selection of AI solutions for enhanced productivity.",
+        "toolDescSm": "Discover and compare AI tools directly in Chrome with the AI Tools Alternatives Extension,...",
+        "rate": " 5.3/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/gitwit.webp"
+        "toolName": "Invoke AI ",
+        "toolSite": "https://github.com/invoke-ai/InvokeAI",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/invoke-ai.webp",
+        "toolDesc": "A stable web UI for Diffusion with advanced features and ongoing development.",
+        "toolDescSm": "A stable web UI for Diffusion with advanced features and ongoing development....",
+        "rate": " - popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/abanteai.webp"
+        "toolName": "FreeAIKit ",
+        "toolSite": "https://freeaikit.com/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/freeaikit-com.webp",
+        "toolDesc": "FreeAIKit is a suite of free AI tools designed to simplify various tasks including image generation, marketing, and productivity.",
+        "toolDescSm": "FreeAIKit is a suite of free AI tools designed to simplify various tasks including image g...",
+        "rate": " 4.9/10 popularity"
     },
     {
-        "img": "https://statics.topai.tools/img/tools/thumbs/figstack.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/vivid.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/visualizeai.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/everassistantai.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/aspect.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/vellum-ai.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/appgenius-ai.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/bunzz-decipher.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/ai-tools-alternatives-browser-extension.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/invoke-ai.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/freeaikit-com.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/youai.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/openrouter-ai.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/refraction.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/i18ncore.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/noodl.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/sitesgpt-com.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/explaindev.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/roughly.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/aicode.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/airaso.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/designedbyai.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/aigentor.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/literally-anything.webp"
-    },
-    {
-        "img": "https://statics.topai.tools/img/tools/thumbs/diagram.webp"
+        "toolName": "YouAI ",
+        "toolSite": "https://youai.ai/ais",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/youai.webp",
+        "toolDesc": "YouAI is a versatile collection of AI applications that offers various functionalities for different needs. It provides an easy and efficient solution for task automation and puts the power of AI in users' hands.",
+        "toolDescSm": "YouAI is a versatile collection of AI applications that offers various functionalities for...",
+        "rate": " 6.0/10 popularity"
+    },
+    {
+        "toolName": "Openrouter.ai ",
+        "toolSite": "https://openrouter.ai/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/openrouter-ai.webp",
+        "toolDesc": "OpenRouter is an AI tools web aggregator that offers access to a diverse selection of AI models for various use cases. The platform includes famous.chat, Venus AI, Spicy Chat AI, MaxAI, and Agnaistic, providing different tokens and AI capabilities.",
+        "toolDescSm": "OpenRouter is an AI tools web aggregator that offers access to a diverse selection of AI m...",
+        "rate": " 6.3/10 popularity"
+    },
+    {
+        "toolName": "Refraction ",
+        "toolSite": "https://www.refraction.dev/vscode",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/refraction.webp",
+        "toolDesc": "Refract is an AI-powered VS Code extension that automates tedious tasks in software development and offers 10 free uses.",
+        "toolDescSm": "Refract is an AI-powered VS Code extension that automates tedious tasks in software develo...",
+        "rate": " 4.7/10 popularity"
+    },
+    {
+        "toolName": "I18ncore ",
+        "toolSite": "https://i18ncore.com/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/i18ncore.webp",
+        "toolDesc": "I18ncore is an I18n management tool that simplifies localization of applications by offering a three-step process: sign up, connect with GitHub, and start translating.",
+        "toolDescSm": "I18ncore is an I18n management tool that simplifies localization of applications by offeri...",
+        "rate": " 3.1/10 popularity"
+    },
+    {
+        "toolName": "Noodl ",
+        "toolSite": "https://www.noodl.net/noodl-ai",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/noodl.webp",
+        "toolDesc": "Noodl AI is a platform that simplifies complex app development by providing visual interfaces for UI design, function creation, and database queries.",
+        "toolDescSm": "Noodl AI is a platform that simplifies complex app development by providing visual interfa...",
+        "rate": " 5.0/10 popularity"
+    },
+    {
+        "toolName": "SitesGPT.com ",
+        "toolSite": "https://SitesGPT.com",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/sitesgpt-com.webp",
+        "toolDesc": "SitesGPT.com is an AI-powered website generator, instantly creating professional, high-quality websites within seconds. It offers easy customization, access to a vast gallery of stock media, and cloud-based security",
+        "toolDescSm": "SitesGPT.com is an AI-powered website generator, instantly creating professional, high-qua...",
+        "rate": " 5.0/10 popularity"
+    },
+    {
+        "toolName": "ExplainDev ",
+        "toolSite": "https://explain.dev/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/explaindev.webp",
+        "toolDesc": "ExplainDev is an AI tool that helps developers understand code and improve their skills by providing a structured approach to explaining technical concepts in plain language.",
+        "toolDescSm": "ExplainDev is an AI tool that helps developers understand code and improve their skills by...",
+        "rate": " 4.6/10 popularity"
+    },
+    {
+        "toolName": "Roughly ",
+        "toolSite": "https://www.roughly.app/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/roughly.webp",
+        "toolDesc": "Roughly is an AI tool that enables users to easily create stunning artwork with a user-friendly interface and advanced features, making it a versatile tool for various industries.",
+        "toolDescSm": "Roughly is an AI tool that enables users to easily create stunning artwork with a user-fri...",
+        "rate": " - popularity"
+    },
+    {
+        "toolName": "AICODE ",
+        "toolSite": "https://aicode-weld.vercel.app/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/aicode.webp",
+        "toolDesc": "Jit.cod is an AI tool that generates HTML, CSS, and JavaScript code from text descriptions using AI. It requires an OpenAI API key, is free to use, and can be accessed through a link.",
+        "toolDescSm": "Jit.cod is an AI tool that generates HTML, CSS, and JavaScript code from text descriptions...",
+        "rate": " 3.6/10 popularity"
+    },
+    {
+        "toolName": "AirASO ",
+        "toolSite": "https://airaso.co/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/airaso.webp",
+        "toolDesc": "Airaso is an AI tool for optimizing app store search traffic and generating automatic metadata in multiple languages.",
+        "toolDescSm": "Airaso is an AI tool for optimizing app store search traffic and generating automatic meta...",
+        "rate": " - popularity"
+    },
+    {
+        "toolName": "Designedbyai ",
+        "toolSite": "https://designedbyai.io/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/designedbyai.webp",
+        "toolDesc": "designedbyai.io is an AI tool that generates stunning, realistic images for interior design and architectural projects with enterprise-grade design AI.",
+        "toolDescSm": "designedbyai.io is an AI tool that generates stunning, realistic images for interior desig...",
+        "rate": " 4.8/10 popularity"
+    },
+    {
+        "toolName": "AIgentor ",
+        "toolSite": "https://aigentor.com/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/aigentor.webp",
+        "toolDesc": "AIgentor is a comprehensive platform that offers a range of cutting-edge tools for integrating AI into your workflow.",
+        "toolDescSm": "AIgentor is a comprehensive platform that offers a range of cutting-edge tools for integra...",
+        "rate": " 4.8/10 popularity"
+    },
+    {
+        "toolName": "Literally Anything ",
+        "toolSite": "https://www.literallyanything.io/",
+        "imgSrc": "https://statics.topai.tools/img/tools/thumbs/literally-anything.webp",
+        "toolDesc": "LITERALLY ANYTHING is an AI creation tool that enables users to build simple apps, games, widgets, or digital services directly in their browser using text.",
+        "toolDescSm": "LITERALLY ANYTHING is an AI creation tool that enables users to build simple apps, games, ...",
+        "rate": " 4.4/10 popularity"
     }
 ]
