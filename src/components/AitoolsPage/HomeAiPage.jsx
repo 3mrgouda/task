@@ -1,15 +1,15 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import ContentAi from './ContentAi';
-import Details from './details/Details';
+import ToolDetails from './details/ToolDetails';
 
 const HomeAiPage = () => {
 
 
     return (
        <Routes>
-        <Route index element={<ContentAi/>}/>
-        <Route path='/details' element={<Details/>} />
+        <Route path='/' element={<ContentAi/>}/>
+        <Route path='/:toolsId' element={<ToolDetails/>} />
        </Routes>
     )
 }
