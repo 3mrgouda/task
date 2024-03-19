@@ -9,7 +9,7 @@ const HomeAiPage = () => {
     return (
        <Routes>
         <Route path='/' element={<ContentAi/>}/>
-        <Route path='/:toolsId' element={<ToolDetails/>} />
+        <Route path='/:id' element={<ToolDetails/>} />
        </Routes>
     )
 }
