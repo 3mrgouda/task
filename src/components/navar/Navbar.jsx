@@ -45,7 +45,7 @@ const Navbar = ({ HandlePopUP }) => {
 
   return (<>
  
-    <div  className='fixed bg-white -mt-1 py-1  flex xl:w-11/12 flex-col w-full xl:flex-row xl:items-center xl:justify-between mx-auto gap-2'>
+    <div  className='fixed z-50 bg-white -mt-1 py-1  flex xl:w-11/12 flex-col w-full xl:flex-row xl:items-center xl:justify-between mx-auto gap-2'>
       <Link to={'../../'} className="logo w-10/12 mx-auto flex items-center justify-between text-4xl sm:text-5xl"><div className="flex items-center">Begin <img src={LogoIcon} className='inline-block w-[50px]' alt="" /><span className='font-bold'>Front</span></div> <div className='max-sm:block hidden w-20 '></div>
         <div className='' onClick={() => toggleMenue()}> {!openMenue ? <IoMdMenu className='block xl:hidden' /> : <IoMdClose className='block xl:hidden' />}
         </div>
